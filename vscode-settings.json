@@ -1,0 +1,60 @@
+{
+  "editor.fontFamily": "Monaspace Krypton, monospace",
+  "editor.fontSize": 13,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "bracketPairColorizer.forceUniqueOpeningColor": true,
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "workbench.colorCustomizations": {
+  //   "activityBar.background": "#00AA00",
+  //   "scrollbarSlider.background": "#F67280",
+    "editorCursor.foreground": "#01ffaa",
+    "editorCursor.background": "#01ffaa",
+    "editorGroup.border": "#461f7d",
+    // "editor.background": "#352b43",
+    "editorLineNumber.activeForeground": "#e7be1a",
+    "scrollbar.shadow": "#672eb7",
+    // "scrollbarSlider.background": "#461f7d85",
+    "scrollbarSlider.background": "#56338073",
+    "scrollbarSlider.activeBackground": "#8334f2",
+    "scrollbarSlider.hoverBackground": "#8334f2",
+  },
+  "todohighlight.keywords": [
+    {
+        "text": "TODO:",
+        "backgroundColor": "#43064a",
+    }
+  ],
+  "editor.tabSize": 2,
+  "window.title": "${activeEditorMedium}",
+  "oneDarkPro.italic": true,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.layoutControl.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": false,
+  "settingsSync.ignoredExtensions": [],
+  "editor.linkedEditing": true,
+  "[nginx]": {},
+  "files.associations": {
+    "*.erb": "nginx"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.rulers": [
+      120
+    ],
+    "editor.semanticHighlighting.enabled": true
+  },
+  
+}
