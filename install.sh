@@ -1,9 +1,9 @@
 #!/bin/sh
 # Software for provisioning up a Macbook Pro and all that good stuff.
-# Inspired by komputer-maschine by Lauren Dorman
-# (https://github.com/laurendorman/komputer-maschine)
-# adapted from Iheanyi Ekechukwu (https://github.com/iheanyi/dotfiles/blob/master/install.sh)
-curl --remote-name https://raw.githubusercontent.com/thewmking/dotfiles/master/install.sh
+# Inspired by & derived from 
+#  - komputer-maschine by Lauren Dorman (https://github.com/laurendorman/komputer-maschine)
+#  - Iheanyi Ekechukwu (https://github.com/iheanyi/dotfiles)
+#  - bradp (https://gist.github.com/bradp/bea76b16d3325f5c47d4)
 
 brew_install() {
   echo "attempting install of $@"
